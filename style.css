@@ -1,0 +1,62 @@
+body{
+    margin:0;overflow:hidden
+}
+
+/* .anim {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index:-1;
+  } */
+
+  /* .cc {
+    display: grid;
+  } */
+
+  .card{
+    /* display: flex; */
+    margin: 10px;
+    padding: 0;
+    /* float: left; */
+  }
+  .card-deck{
+    padding: 40px;
+  }
+
+  #cclinks{
+    display: flex;
+    float:right;
+  }
+
+  #mainb{
+    padding-left: 2%;
+  }
+  
+  #BackDiv, #else{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* #else{
+      padding: 10%;
+      padding-left: 10%;
+  } */
+
+/* #BackDiv{
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    z-index:-1;
+}
+
+#eles{
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index:0;
+} */

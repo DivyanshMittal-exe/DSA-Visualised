@@ -6,7 +6,7 @@ var grid;
 
 var path = [];
 
-var side = 49;
+var side = 33;
 
 var openList = [];
 var closedList = [];
@@ -100,7 +100,9 @@ function removeFromArr(elemnt, array){
 }
 
 function setup(){
-    createCanvas(window.innerWidth,window.innerHeight);
+    let canvas = createCanvas(windowWidth,10*windowHeight/12);
+    canvas.class("maze");
+    canvas.parent("maze");
     //textFont(inconsolata);
     textSize(20);
     textAlign(CENTER, CENTER);

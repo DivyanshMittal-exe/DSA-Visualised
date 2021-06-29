@@ -1,1 +1,14 @@
-body {background-color: coral;}
+
+body{
+    margin:0;overflow:hidden;
+    background-color: coral;
+}
+
+.maze{
+    /* position: absolute;
+    top: 0; */
+}
+
+.headbar{
+    height: 16.6%;
+}

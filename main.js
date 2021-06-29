@@ -2,8 +2,11 @@ let p;
 let parray = []
 
 function setup(){
-    createCanvas(window.innerWidth,window.innerHeight);
-
+    let canvas = createCanvas(windowWidth,windowHeight);
+    canvas.class("anim")
+    canvas.parent('BackDiv');
+    // canvas.position(0, 0);
+    // canvas.z_index(-1);
     totalParticles = Math.floor(window.innerWidth/10);
     for (let i = 0; i < totalParticles; i++) {
         parray.push(new Partictle());
@@ -19,6 +22,10 @@ function draw(){
         particle.makeStroke();
     });
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+ }
 
 class Partictle{
     constructor(){
