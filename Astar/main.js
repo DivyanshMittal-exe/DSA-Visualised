@@ -100,7 +100,7 @@ function removeFromArr(elemnt, array){
 }
 
 function setup(){
-    let canvas = createCanvas(windowWidth,10*windowHeight/12);
+    let canvas = createCanvas(windowWidth,11*windowHeight/12);
     canvas.class("maze");
     canvas.parent("maze");
     //textFont(inconsolata);
@@ -143,7 +143,7 @@ function setup(){
 
 function draw(){
     console.log("Works");
-    background(56,23,43);
+    background(0,0,0);
 
 
     if(openList.length > 0){

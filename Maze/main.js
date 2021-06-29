@@ -139,7 +139,7 @@ function destroyWall(mazeEle,newEle){
 
 
 function setup(){
-    createCanvas(window.innerWidth,window.innerHeight);
+    createCanvas(window.innerWidth,11*window.innerHeight/12);
     //textFont(inconsolata);
     textSize(20);
     textAlign(CENTER, CENTER);
@@ -223,7 +223,7 @@ function setup(){
 
 function draw(){
     console.log("Works");
-    background(56,23,43);
+    background(0,0,0);
 
     if(madeMaze){
         soolveMaze();

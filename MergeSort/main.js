@@ -10,7 +10,8 @@ var eleHeight = 55
 var circleArr = [];
 
 function setup(){
-    createCanvas(window.innerWidth,window.innerHeight);
+    canvas = createCanvas(10*window.innerWidth/12,11*window.innerHeight/12);
+    canvas.parent("merges");
     
     textSize(20);
     textAlign(CENTER, CENTER);

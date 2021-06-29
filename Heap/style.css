@@ -1,1 +1,11 @@
 body {background-color: coral;}
+
+#bbtn1,#bbtn2,#bbtn3{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#mainb{
+    padding-left: 2%;
+    height: 16%;
+  }

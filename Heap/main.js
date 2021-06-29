@@ -5,7 +5,10 @@ var heightTotal = Math.floor(Math.log2(arr.length+1)) + 1;
 var circleArr = [];
 
 function setup(){
-    createCanvas(window.innerWidth,window.innerHeight);
+    canvas = createCanvas(10*window.innerWidth/12,10*window.innerHeight/12);
+    
+    canvas.parent("elefrm");
+    
     //textFont(inconsolata);
     //textSize(width / 3);
     textAlign(CENTER, CENTER);

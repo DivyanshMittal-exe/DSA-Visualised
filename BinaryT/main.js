@@ -140,7 +140,8 @@ function getheightTotal(){
 
 function setup(){
     setupomp = false;
-    createCanvas(window.innerWidth,window.innerHeight);
+    canvas = createCanvas(10*window.innerWidth/12,11*window.innerHeight/12);
+    canvas.parent("btrees");
     textAlign(CENTER, CENTER);
     
     parentNode = new Node;
